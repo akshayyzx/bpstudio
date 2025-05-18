@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Poppins:wght@400;700&display=swap');
+@import "tailwindcss";
+/* @import "~slick-carousel/slick/slick.css"; */
+/* @import "~slick-carousel/slick/slick-theme.css"; */
+
+
+/* Custom fonts via Google Fonts */
+
+/* Use Tailwind's layer to add font utilities manually */
+@layer utilities {
+  .font-montserrat {
+    font-family: 'Montserrat', sans-serif;
+  }
+  .font-poppins {
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .font-geologica{
+    font-family: "Geologica", sans-serif;
+  }
+}
