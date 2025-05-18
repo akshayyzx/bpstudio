@@ -19,3 +19,16 @@
     font-family: "Geologica", sans-serif;
   }
 }
+
+/* Fade in with ease-in */
+.fade-in-ease {
+  opacity: 0;
+  animation: fadeInEase 1s ease-in forwards;
+}
+
+@keyframes fadeInEase {
+  to {
+    opacity: 1;
+  }
+}
+
